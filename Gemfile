@@ -34,6 +34,10 @@ gem "bson_ext"
 gem "mongoid", "~>4.0.0"
 gem 'rspec-rails'
 gem 'rails_12factor', group: :production
+gem 'faker'
+gem 'axlsx'
+gem 'roo'
+gem 'spreadsheet'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
